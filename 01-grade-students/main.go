@@ -1,14 +1,14 @@
-package main
+package gradeStudents
 
 import (
 	"fmt"
 	"log"
 )
 
-func main() {
+func App() {
 	currentScore := 10
 
-	err, finalGrade := GradeStudents(currentScore)
+	finalGrade, err := GradeStudents(currentScore)
 	if err != nil {
 		log.Fatal(err)
 	}
