@@ -1,7 +1,7 @@
 package main
 
-import gradeStudents "github.com/samueladitia95/simple-algorithms/01-grade-students"
+import module "github.com/samueladitia95/simple-algorithms/02-graduates"
 
 func main() {
-	gradeStudents.App()
+	module.App()
 }
