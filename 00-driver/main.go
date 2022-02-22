@@ -1,9 +1,9 @@
 package main
 
 import (
-	module "github.com/samueladitia95/simple-algorithms/03-readTerminal"
+	module "github.com/samueladitia95/simple-algorithms/02-graduates"
 )
 
 func main() {
-	module.Read()
+	module.App()
 }
